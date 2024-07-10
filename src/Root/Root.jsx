@@ -8,7 +8,7 @@ const Root = () => {
             <div className="h-20">
             <Nav></Nav>
             </div>
-            <div className="min-h-[calc(100vh-117px)]">
+            <div className="w-full">
             <Outlet></Outlet>
             </div>
             <Footer></Footer>

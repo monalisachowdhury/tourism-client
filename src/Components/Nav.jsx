@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import { GiCommercialAirplane } from "react-icons/gi";
 
 const Nav = () => {
     return (
@@ -15,7 +16,10 @@ const Nav = () => {
         <NavLink to="/myList" className={({isActive}) => isActive? 'text-nav p-2 font-medium' : 'text-nav2 p-2'}>My List</NavLink>
       </ul>
     </div>
-    <a className="btn btn-ghost text-3xl font-bold text-nav">Tourism</a>
+    <div className="flex pl-5">
+    <GiCommercialAirplane className=" w-10 h-10 text-nav"/>
+    <a className="btn btn-ghost p-0 text-3xl font-bold text-nav">Tourism</a>
+    </div>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1 text-lg">

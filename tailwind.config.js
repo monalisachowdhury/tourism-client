@@ -7,8 +7,9 @@ export default {
   theme: {
     extend: {},
     colors: {
-      'nav'  : '#0891b2',
-      'nav2'  : '#334155',
+      'nav'      : '#0891b2',
+      'nav2'     : '#334155',
+      'p-text'   : 'rgb(100, 116, 139)', 
     }
   },
   plugins: [
